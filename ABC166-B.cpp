@@ -2,9 +2,9 @@
 
 using namespace std;
 
-double search_num(int *sunuke, int num, int max){
+bool search_num(int *sunuke, int num, int max){
     
-    double flag = false;
+    bool flag = false;
     
     for(int i=0; i<max; i++){
         if(sunuke[i] == num){
